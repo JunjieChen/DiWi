@@ -1,0 +1,5 @@
+test trunk:220434
+fail opti level:-O1;-O2;-O3
+fixed trunk:220475
+buggy locations:
+file:/trunk/gcc/simplify-rtx.c;method:simplify_binary_operation_1 (enum rtx_code code, machine_mode mode, rtx op0, rtx op1, rtx trueop0, rtx trueop1)

@@ -1,0 +1,5 @@
+test trunk:275388
+fail opti level:-O1
+fixed trunk:275634
+buggy locations:
+file: /llvm/trunk/lib/CodeGen/ExpandPostRAPseudos.cpp;method:ExpandPostRA::TransferImplicitDefs(MachineInstr *MI)
